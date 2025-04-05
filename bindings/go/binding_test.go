@@ -3,8 +3,8 @@ package tree_sitter_qmljs_test
 import (
 	"testing"
 
-	tree_sitter "github.com/smacker/go-tree-sitter"
-	"github.com/tree-sitter/tree-sitter-qmljs"
+	tree_sitter "github.com/tree-sitter/go-tree-sitter"
+	tree_sitter_qmljs "git+github.com/yuja/tree-sitter-qmljs.git/bindings/go"
 )
 
 func TestCanLoadGrammar(t *testing.T) {
